@@ -11,6 +11,6 @@ class Customer
 
     public function sayHello(string $name = "Guest"): string
     {
-        return "Hello $name, my name is $this->name";
+        return "Hello $name, my name is $this->name. Senang perkenalan denganmu.";
     }
 }
